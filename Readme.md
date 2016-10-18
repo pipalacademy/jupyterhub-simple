@@ -1,6 +1,6 @@
 # jupyterhub-simple
 
-Ready to use Docker Image for running jupyterhub.
+Ready to use Docker image for running JupyterHub.
 
 The official jupyterhub image requires lot of configuration to get started. This image provides ready to use docker image for simple use cases.
 
