@@ -5,7 +5,7 @@ import os
 usersfile = sys.argv[1]
 
 if not os.path.exists(usersfile):
-    print(usersfile, f"users.txt file {usersfile} not found, exiting...", file=sys.stderr)
+    print(usersfile, f"No users.txt file found. Ignoring...", file=sys.stderr)
     sys.exit(0)
 
 for line in open(usersfile):
